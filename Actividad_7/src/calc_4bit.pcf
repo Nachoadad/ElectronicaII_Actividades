@@ -1,0 +1,22 @@
+# Reloj 12 MHz 
+set_io clk 94 
+
+# Tablero de interruptores de 8 bits (x) 
+set_io x[1] 24 
+set_io x[2] 23 
+set_io x[3] 22 
+set_io x[4] 21 
+set_io x[5] 16 
+set_io x[6] 15 
+set_io x[7] 12 
+set_io x 11 
+
+# Display de siete segmentos y punto decimal (display) 
+set_io display[1] 124 
+set_io display[2] 134 
+set_io display[3] 129 
+set_io display[4] 135 
+set_io display[5] 130 
+set_io display[6] 128 
+set_io display[7] 122 
+set_io display 125

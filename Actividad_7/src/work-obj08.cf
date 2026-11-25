@@ -1,0 +1,13 @@
+v 4
+file . "alu_tb.vhd" "9d5769b74a052907be5af281eb21c80f7114b339" "20261125090439.696":
+  entity alu_tb at 1( 0) + 0 on 27;
+  architecture tb of alu_tb at 11( 139) + 0 on 28;
+file . "calc_4bit.vhd" "8bcf55a605a35b3946ffc6af1509b17dabea52f8" "20261125090439.196":
+  entity edge_detector at 1( 0) + 0 on 19;
+  architecture moore of edge_detector at 14( 232) + 0 on 20;
+  entity hex_to_7seg at 69( 1415) + 0 on 21;
+  architecture behave of hex_to_7seg at 81( 1641) + 0 on 22;
+  entity alu at 110( 2664) + 0 on 23;
+  architecture arch of alu at 130( 3126) + 0 on 24;
+  entity calc_4bit at 172( 4934) + 0 on 25;
+  architecture struct of calc_4bit at 185( 5189) + 0 on 26;
