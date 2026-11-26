@@ -9,7 +9,7 @@ set_io x[4] 21
 set_io x[5] 16 
 set_io x[6] 15 
 set_io x[7] 12 
-set_io x 11 
+set_io x[0] 11 
 
 # Display de siete segmentos y punto decimal (display) 
 set_io display[1] 124 
@@ -19,4 +19,4 @@ set_io display[4] 135
 set_io display[5] 130 
 set_io display[6] 128 
 set_io display[7] 122 
-set_io display 125
+set_io display[0] 125
